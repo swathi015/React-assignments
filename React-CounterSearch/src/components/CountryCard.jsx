@@ -1,4 +1,4 @@
-function CountryCard({ country }) {
+ function CountryCard({ country }) {
 
   return (
     <div className="border rounded-lg p-4 shadow text-center hover:shadow-lg">
