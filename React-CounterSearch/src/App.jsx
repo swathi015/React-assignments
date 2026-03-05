@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import SearchBar from "./components/SearchBar";
 import CountryList from "./components/CountryList";
 
-
+ 
 function App() {
 
   const [countries, setCountries] = useState([]);
