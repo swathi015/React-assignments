@@ -1,4 +1,4 @@
-function SearchBar({ setSearch }) {
+ function SearchBar({ setSearch }) {
 
   return (
     <div className="flex justify-center mb-8">
