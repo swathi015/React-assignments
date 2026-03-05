@@ -1,7 +1,7 @@
 import TaskItem from "./TaskItem";
 
 function TaskList({ tasks, updateTask, deleteTask }) {
-  const completeTask = (indx) => {
+  const completeTask = (indx) => { 
     const updatedTaskObj = { ...tasks[indx], completedStatus: !tasks[indx].completedStatus };
     updateTask(updatedTaskObj, indx);
   };
