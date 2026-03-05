@@ -7,7 +7,7 @@ function AddTaskForm({ addNewTask }) {
     setError,
     formState: { errors },
     reset,
-  } = useForm();
+  } = useForm(); 
 
   const submitForm = (obj) => {
     // obj.priority = Number(obj.priority);
