@@ -1,4 +1,4 @@
-function Product(props){
+function Product(props){ 
     let {productId,name,price,brand,description,image} = props.products
     return(
         <div className="flex flex-col w-90 items-center justify-evenly" >
