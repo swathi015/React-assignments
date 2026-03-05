@@ -1,6 +1,7 @@
 import Product from "./product"
  function Products(){
     //state
+  
     //retrun and react element
      const products = [
               {
